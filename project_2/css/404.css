@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+*{
+	-webkit-transition: all ease-in 0.5s;
+	-o-transition: all ease-in 0.5s;
+	transition: all ease-in 0.5s;
+}
+
+
+header div.col-lg-12{
+	padding:20px 0px;
+}
+
+header div.myform h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	font-weight: 300;
+	text-transform: capitalize;
+}
+
+header div.ban{
+	width:60%;
+	border:solid 1px gray;
+	margin:25px auto 50px;
+	padding:20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+header div.ban i{
+	color:red;
+	margin:5px 0px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+/*register
+============================*/
+header .register a{
+	text-decoration: none;
+	border:solid 1px gray;
+	padding:10px;
+	color:#000;
+	border-radius: 5px;
+}
+header .register a:hover{
+	text-decoration: none;
+	background-color:#ecf0f1;
+}
+header .register a i{
+	margin-right:5px;
+}

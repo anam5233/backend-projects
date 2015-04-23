@@ -1,0 +1,105 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,600);
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+/*
+h1, h2, h3, h4, h5, h6
+===================================*/
+header h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+section.myform form h3{
+	font-family: 'Open Sans', sans-serif;
+	text-transform: capitalize;
+	font-weight: 300;
+	margin:0px 0px;
+	color:#333;
+}
+
+/*form design
+=====================*/
+section.myform form div.form-header-one,
+section.myform form div.form-header-two{
+	width: 85%;
+	margin:20px auto;
+}
+section.myform form div.form-group{
+	width: 65%;
+	margin:10px auto;
+}
+section.myform form h3 i{
+	margin:0px 5px;
+}
+section.myform form .form-header-one,
+section.myform form .form-header-two{
+	/*margin:20px 0px;*/
+}
+section.myform form .form-header-one span,
+section.myform form .form-header-two span{
+	display: inline-block;
+	width: 100%;
+	height: 1px;
+	background-color:#ccc;
+	/*position: absolute;*/
+	margin-top:-2px;
+	
+}
+section.myform div.form-group label{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-transform: capitalize;
+	width:20%;
+	line-height: 2;
+}
+section.myform div.form-group input.form-control,
+section.myform div.form-group textarea.form-control,
+section.myform div.form-group select.form-control{
+	display: inline;
+	width:50%;
+	float:right;	
+}
+section.myform div.form-group select.form-control{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-transform: capitalize;
+}
+section.myform div.form-submit button{
+	margin:25px 0px;
+	width: 150px;
+	text-transform: uppercase;
+	background-color:#ecf0f1;
+	border-color: #34495e;
+	color:#34495e; 
+}
+
+/*placeholder design
+===============================*/
+::-webkit-input-placeholder {
+   color: gray;
+   font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: regray 
+   font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rgray 
+   font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic; 
+}
+
+:-ms-input-placeholder {  
+   color: rgray 
+   font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic; 
+}

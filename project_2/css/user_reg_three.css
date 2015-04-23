@@ -1,0 +1,115 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,600);
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/*header
+===================*/
+header div.user{
+	margin:5px 0px 20px;
+}
+header div.user span:first-child{
+	text-transform: capitalize;
+}
+header div.user span{
+	width:150px;
+	height: 150px;
+	background:transparent;
+	border:solid 1px #ccc;
+	display: inline-block;	
+	margin:25px 0px;
+}
+
+
+
+
+
+
+/*
+h1, h2, h3, h4, h5, h6
+===================================*/
+header h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+section.myform form h3{
+	font-family: 'Open Sans', sans-serif;
+	text-transform: capitalize;
+	font-weight: 300;
+	margin:0px 0px;
+	color:#333;
+}
+/*table design
+======================*/
+section.mytable table td{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-transform: capitalize;
+}
+section.mytable table th{
+	font-family: 'Open Sans', sans-serif;
+	text-transform: capitalize;
+}
+section.mytable table th a{
+	text-decoration: none;
+}
+section.mytable table:last-child tr span{
+	/*width:250px;*/
+	height: 80px;
+	display: block;
+	border:solid 1px #ccc;
+}
+section.mytable table:last-child tr td.fusername{
+	/*color:red;*/
+	line-height: 5;
+	font-weight: 400;
+}
+section.mytable table:last-child tr td.fusign span{
+	padding: 10px;
+}
+/*form design
+=====================*/
+
+
+
+/*footer
+================*/
+footer a{
+	width:200px;
+	text-transform: uppercase;
+}
+
+
+
+
+/*placeholder design
+===============================*/
+::-webkit-input-placeholder {
+   color: gray;
+   font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: regray 
+   font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rgray 
+   font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic; 
+}
+
+:-ms-input-placeholder {  
+   color: rgray 
+   font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic; 
+}

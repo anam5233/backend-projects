@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,600);
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* header
+================*/
+header h2{
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+
+/*form design
+=========================*/
+
+section.myform form .form-group label{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;	
+	line-height: 2;
+}
+
+section.myform form .form-group input,
+section.myform form .form-row textarea{
+	display: inline;
+	width:70%;
+	float:right;
+}
+
+section.myform form .form-tel div.form-group{
+	display: inline;
+}
+
+
+
+
+
+
+
+
+/*placeholder design
+===============================*/
+::-webkit-input-placeholder {
+   color: gray;
+   font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: regray 
+   font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rgray 
+   font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic; 
+}
+
+:-ms-input-placeholder {  
+   color: rgray 
+   font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic; 
+}

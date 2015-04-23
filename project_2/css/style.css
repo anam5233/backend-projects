@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+header div.col-lg-12{
+	padding:20px 0px;
+}
+
+header div.myform h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	font-weight: 300;
+	text-transform: capitalize;
+}
+
+
+header div.myform form{
+	border:solid 1px gray;
+	border-radius: 5px;
+	display: inline-block;
+	padding:50px;
+	margin:35px 0px;
+	background-color:#eee;
+}
+header div.myform form h3{
+	color:gray;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	margin: 0px 0px 25px;
+}
+header .myform .form-group input{
+	width:90%;
+	display: inline-block;
+	margin-bottom: 25px;
+}
+
+header .myform button{
+	/*width:30%;*/
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+header .myform button i{
+	margin:0 10px;
+
+}
+header .myform button.submit i{
+	color:green;
+}
+header .myform button.forget i{
+	color:red;
+}
+header .myform form a i{
+	margin-right:5px;
+	/*color:red;*/
+}

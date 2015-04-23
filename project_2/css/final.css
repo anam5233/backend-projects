@@ -1,0 +1,107 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,600);
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+header h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+header h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	border:solid 1px #ccc;
+	padding:8px;
+	display: inline-block;
+	border-radius: 5px;
+}
+header span{
+	/*border:solid 1px red;*/
+	display: inline-block;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+header span:first-child{
+	/*color:green;*/
+	float: left;
+	border:solid 1px #ccc;
+	border-radius: 5px;
+	padding:6px 12px;
+
+}
+header span:last-child{
+	/*color:green;
+	float: right;
+	text-transform: capitalize;*/
+}
+header span:last-child{
+	float: right;
+	text-transform: capitalize;
+	border:solid 1px #ccc;
+	border-radius: 5px;
+	padding:6px 12px;
+}
+header span:last-child input{
+	display: inline;
+	border-radius: 5px;
+	box-shadow: 0px;
+}
+
+/*form one
+=========================*/
+section.myform table  th{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-transform: capitalize;
+}
+section.myform table  td{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-transform: capitalize;
+	font-size: 12px;
+}
+div.final-submit{
+	margin:20px 0px;
+}
+
+div.final-submit a{
+	width:150px;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+
+
+
+/*placeholder design
+===============================*/
+::-webkit-input-placeholder {
+   color: gray;
+   font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: regray 
+   font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rgray 
+   font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic; 
+}
+
+:-ms-input-placeholder {  
+   color: rgray 
+   font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic; 
+}
