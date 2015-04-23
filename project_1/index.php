@@ -29,19 +29,19 @@ include "mydb_connection.php";
 			<form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
 				<div class="form-group">
 					<label for="f_name">your first name
-						<input type="text" name="f_name" id="f_name" class="form-control">
+						<input type="text" name="f_name" id="f_name" class="form-control" placeholder="write your first name" required>
 					</label>
 				</div>
 				
 				<div class="form-group">
 					<label for="l_name">your last name
-						<input type="text" name="l_name" id="l_name" class="form-control">
+						<input type="text" name="l_name" id="l_name" class="form-control" placeholder="write your first name" required>
 					</label>
 				</div>
 
 				<div class="form-group">
 					<label for="occupation">your occupation
-						<input type="text" name="occupation" id="occupation" class="form-control">
+						<input type="text" name="occupation" id="occupation" class="form-control" placeholder="write your first name" required>
 					</label>
 				</div>
 
