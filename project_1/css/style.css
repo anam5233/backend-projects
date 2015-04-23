@@ -1,0 +1,175 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,600);
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+header h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+header h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	border:solid 1px #ccc;
+	padding:8px;
+	display: inline-block;
+	border-radius: 5px;
+}
+header span{
+	/*border:solid 1px red;*/
+	display: inline-block;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+header span:first-child{
+	/*color:green;*/
+	float: left;
+	border:solid 1px #ccc;
+	border-radius: 5px;
+	padding:6px 12px;
+
+}
+header span:last-child{
+	color:green;
+	float: right;
+	text-transform: capitalize;
+}
+header span:last-child input{
+	display: inline;
+	border-radius: 5px;
+	box-shadow: 0px;
+}
+
+section.myform .error{
+	border:solid 1px red;
+	text-align: center;
+}
+section.myform .success{
+	border:solid 1px green;
+	text-align: center;
+}
+
+/*form design
+=========================*/
+
+section.myform form .form-row label{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;	
+	line-height: 2;
+}
+
+section.myform form .form-row input,
+section.myform form .form-row textarea{
+	display: inline;
+	width:70%;
+	float:right;
+}
+section.myform form .form-row textarea{
+	/*font-size: 12px;*/
+}
+section.myform form .form-tel div.form-group{
+	display: inline;
+}
+section.myform form .form-tel{
+	margin:20px 0px 10px;
+}
+section.myform form div.form-group label{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+section.myform form .form-tel label{
+	/*margin-right:40px;*/
+	/*background-color:red;*/
+	width:50px;
+	text-align: center;
+}
+section.myform form .form-tel input{
+	display: inline;
+	float:none;
+	width:80%;
+}
+section.myform form div.form-tel div.fax{
+	text-align: right;
+}
+
+/*table
+=====================*/
+section.myform form div.form-group table th{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+section.myform form div.form-group table td{
+	padding:0px;
+}
+section.myform form div.form-group table td input{
+	border:0px;
+}
+section.myform form div.form-table label{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+section.myform form div.addremove a{
+	text-transform: capitalize;
+}
+section.myform form div.form-submit{
+	text-align: center;
+}
+section.myform form div.form-submit button{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	width:20%;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+/*business operation
+============================*/
+section.myform form div.business-operation div.form-row{
+	margin:10px 0px;
+}
+
+section.myform form div.business-operation div.business-partner{
+	padding:0;
+}
+section.myform form div.business-operation  div.business-ex{
+	padding-right:10px;
+	/*color:red;*/
+}
+section.myform form div.financial div.form-group{
+	display: inline-block;
+	margin:10px;
+}
+
+/*placeholder design
+===============================*/
+::-webkit-input-placeholder {
+   color: gray;
+   font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: regray 
+   font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rgray 
+   font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic; 
+}
+
+:-ms-input-placeholder {  
+   color: rgray 
+   font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic; 
+}
