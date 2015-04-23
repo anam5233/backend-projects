@@ -15,7 +15,7 @@ include "mydb_connection.php";
 <header>
 	<div class="container">
 		<div class="row">
-			<h2>Lorem ipsum dolor sit amet.</h2>
+			<h2>Fill out below fields</h2>
 		</div>
 	</div>
 </header>
@@ -27,7 +27,8 @@ include "mydb_connection.php";
 		<div class="row">
 		<div class="col-lg-6">
 			<form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
-				<div class="form-group">
+
+				<div class="form-group">					
 					<label for="f_name">your first name
 						<input type="text" name="f_name" id="f_name" class="form-control" placeholder="write your first name" required>
 					</label>
@@ -46,7 +47,7 @@ include "mydb_connection.php";
 				</div>
 
 				<div class="form-group">
-					<input type="submit" value="submit">
+					<input type="submit" value="submit" class="btn btn-primary form-control">
 				</div>
 				
 			</form>
@@ -66,15 +67,21 @@ include "mydb_connection.php";
 						 VALUES ('$f_name', '$l_name', '$occupation')");
 
 				if (empty($f_name) || empty($l_name) || empty($occupation)) {
-					echo "<p class=\"error\">your first name input field is empty</p>";
+					echo "<p class=\"error\">fill out the form correctly</p>";
 				}
 				else{	
 					if ($result) : ?> 
-					<p>Added a record for <?php echo ($firstName); ?> the singer.</p> 
-					<a href="result.php">Now go see your new record in action.</a>
+					<p class="success-text">Added a record to <?php echo ($firstName); ?> the database successfully.</p> 
+					
 
-					<?php endif; 
-					echo "<p class=\"success\">your first name is ". $f_name. "</p>";
+					<?php endif; ?>
+					<div class="form-info">
+						<p class="form-data f_name">your first name is <?php echo $f_name ?></p>
+						<p class="form-data l_name">your last name is <?php echo $l_name ?></p>
+						<p class="form-data occupation">your occupation is <?php echo $occupation ?></p>
+					</div>
+					<a href="result.php" class="btn btn-default">See result</a>
+					<?php 
 				}
 
 				
