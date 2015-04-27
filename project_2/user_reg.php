@@ -1,3 +1,8 @@
+<?php 
+//include "mydb_connection.php";
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,7 +40,7 @@
 				<!-- <div class="clearfix"></div> -->
 				<div class="form-group">
 					<label for="">first name</label>
-					<input type="text" name="" id="" class="form-control" required placeholder="write your first name">
+					<input type="text" name="" minlength="2" id="" class="form-control" required placeholder="write your first name">
 				</div>
 
 				<div class="form-group">
