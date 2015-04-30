@@ -31,7 +31,7 @@
 	<div class="container">
 		<div class="row">
 
-			<form action="">
+			<form action="user_form_data.php" method="post">
 
 				<div class="form-header-one text-center">
 					<h3><i class="fa fa-tasks"></i> general information</h3>
@@ -39,33 +39,33 @@
 				</div>
 				<!-- <div class="clearfix"></div> -->
 				<div class="form-group">
-					<label for="">first name</label>
-					<input type="text" name="" minlength="2" id="" class="form-control" required placeholder="write your first name">
+					<label for="f_name">first name</label>
+					<input type="text" name="f_name" minlength="2" id="" class="form-control" required placeholder="write your first name">
 				</div>
 
 				<div class="form-group">
-					<label for="">middle name</label>
-					<input type="text" name="" id="" class="form-control" required placeholder="write your middle name">
+					<label for="md_name">middle name</label>
+					<input type="text" name="md_name" id="" class="form-control" required placeholder="write your middle name">
 				</div>
 				
 				<div class="form-group">
-					<label for="">last name</label>
-					<input type="text" name="" id="" class="form-control" required placeholder="write your last name">
+					<label for="l_name">last name</label>
+					<input type="text" name="l_name" id="" class="form-control" required placeholder="write your last name">
 				</div>
 
 				<div class="form-group">
-					<label for="">Email address</label>
-					<input type="email" name="" id="" class="form-control" placeholder="write your email address" required>
+					<label for="email">Email address</label>
+					<input type="email" name="email" id="" class="form-control" placeholder="write your email address" required>
 				</div>
 
 				<div class="form-group">
-					<label for="">date of birth</label>
-					<input type="text" name="" id="" class="form-control" placeholder="write your DOB here" required>
+					<label for="dob">date of birth</label>
+					<input type="text" name="dob" id="" class="form-control" placeholder="write your DOB here" required>
 				</div>
 
 				<div class="form-group">
-					<label for="">gerder</label>
-					<select name="" id="" class="form-control">
+					<label for="gender">gerder</label>
+					<select name="gender" id="" class="form-control">
 						<option value="0">--- Select --- </option>
 						<option value="male">male</option>
 						<option value="female">female</option>
@@ -74,16 +74,16 @@
 					</select>
 				</div>
 				<div class="form-group">
-					<label for="">Address</label>
+					<label for="address">Address</label>
 					
-					<textarea name="" id="" cols="10" rows="2" class="form-control"></textarea>
+					<textarea name="address" id="" cols="10" rows="2" class="form-control"></textarea>
 					<div class="clearfix"></div>
 				</div>
 				
 
 				<div class="form-group">
-					<label for="">Occupation</label>
-					<select name="" id="" class="form-control">
+					<label for="occupation">Occupation</label>
+					<select name="occupation" id="" class="form-control">
 						<option value="0">--- Select --- </option>
 						<option value="govt">Govt. job</option>
 						<option value="business">business</option>
@@ -96,18 +96,18 @@
 				</div>
 
 				<div class="form-group">
-					<label for="">phone</label>
-					<input type="text" name="" id="" class="form-control" placeholder="write your phone number" required>
+					<label for="phone">phone</label>
+					<input type="text" name="phone" id="" class="form-control" placeholder="write your phone number" required>
 				</div>
 
 				<div class="form-group">
-					<label for="">fax</label>
-					<input type="text" name="" id="" class="form-control" placeholder="write your fax number" required>
+					<label for="fax">fax</label>
+					<input type="text" name="fax" id="" class="form-control" placeholder="write your fax number" required>
 				</div>
 				
 				<div class="form-group">
-					<label for="">District</label>
-					<select name="" id="" class="form-control">
+					<label for="district">District</label>
+					<select name="district" id="" class="form-control">
 
 						<option value="0">--- Select --- </option>
 						<option value="45">Bagerhat </option>
@@ -180,13 +180,13 @@
 				</div>
 
 				<div class="form-group">
-					<label for="">write your post code</label>
-					<input type="text" name="" id="" class="form-control" placeholder="write your post code" required>
+					<label for="post_code">write your post code</label>
+					<input type="text" name="post_code" id="" class="form-control" placeholder="write your post code" required>
 				</div>
 
 				<div class="form-group">
-					<label for="">country</label>
-					<select name="" id="" class="form-control">
+					<label for="country">country</label>
+					<select name="country" id="" class="form-control">
 
 						<option value="0"> --- Select --- </option>
 						<option value="1"> Afghanistan </option>
@@ -390,18 +390,18 @@
 				<div class="clearfix"></div>
 
 				<div class="form-group">
-					<label for="">Login name</label>
-					<input type="text" name="" id="" class="form-control" placeholder="write a user name" required>
+					<label for="login_name">Login name</label>
+					<input type="text" name="login_name" id="" class="form-control" placeholder="write a user name" required>
 				</div>
 
 				<div class="form-group">
-					<label for="">password</label>
-					<input type="password" name="" id="" class="form-control" placeholder="choose a password" required>
+					<label for="password">password</label>
+					<input type="password" name="password" id="" class="form-control" placeholder="choose a password" required>
 				</div>
 
 				<div class="form-group">
-					<label for="">re-type your password</label>
-					<input type="password" name="" id="" class="form-control" placeholder="re-type your password" required>
+					<label for="re_password">re-type your password</label>
+					<input type="password" name="re_password" id="" class="form-control" placeholder="re-type your password" required>
 				</div>
 
 				<div class="form-group text-center form-submit">
