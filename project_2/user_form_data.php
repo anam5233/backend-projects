@@ -59,6 +59,27 @@ include "demo_connect_db.php";
 	</header>
 <!-- end of the header -->
 
+
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<a href="user_reg.php" class="btn btn-info">Edit</a>
+			<?php 
+
+$check_user_name = mysqli_query($myconnection, "SELECT * FROM demo_table_one WHERE user_name = '".$login_name."'");
+if (mysqli_num_rows($check_user_name) == 1) {
+	include "404.php";
+}
+else{
+
+$result = mysqli_query($myconnection, "INSERT INTO demo_table_one (id, f_name, md_name, l_name, email, dob, gender, address, occupation, phone, fax, district, post_code, country, user_name, password)
+VALUES  
+('','$f_name', '$md_name', '$l_name','$email','$dob','$gender','$address','$occupation','$phone','$fax','$district','$post_code','$country','$login_name', '$password')");
+
+
+if ($result) :?>
+
 <section class="my_form_data_table">
 	<div class="container">
 		<div class="row">
@@ -95,25 +116,21 @@ include "demo_connect_db.php";
 </section>
 <!-- end of the section/.my_form_data_table -->
 
-<footer>
-	<div class="container">
-		<div class="row">
-			<a href="user_reg.php" class="btn btn-info">Edit</a>
-			<?php 
+<?php endif ?>
 
-$result = mysqli_query($myconnection, "INSERT INTO demo_table_one (id, f_name, md_name, l_name, email, dob, gender, address, occupation, phone, fax, district, post_code, country, user_name, password)
-VALUES  
-('','$f_name', '$md_name', '$l_name','$email','$dob','$gender','$address','$occupation','$phone','$fax','$district','$post_code','$country','$login_name', '$password')");
-if (isset($result)) {
-	echo "added a record successfully";
-	echo $result;
-}
-else{
-	echo "something went wrong";
+
+<?php
+
+	// {
+	// 	echo "added a recode successfully";
+	// 	echo $result;
+	// }
+	// else{
+	// 	echo "something went wrong";
+	// }
 }
 
-
-			?>
+?>
 			<a href="user_reg_two.php" onclick="myAlert()"  id="next" class="btn btn-danger">Next</a>
 		</div>
 	</div>
@@ -149,12 +166,3 @@ function myAlert(){
 	<!-- // <script src="js/myscript.js"></script> -->
 </body>
 </html>
-
-
-
-
-
-
-
-
-

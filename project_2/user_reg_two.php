@@ -1,3 +1,8 @@
+<?php 
+include "demo_connect_db.php";
+// include "user_form_data.php"
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +22,7 @@
 			<h2>check the below information</h2>
 			<div class="user">
 				<span>User :</span>
-				<span>anam5233</span>
+				<span><?php echo "something" ?></span>
 			</div>
 		</div>
 		<!-- end of the /.row -->
@@ -29,34 +34,47 @@
 <section class="mytable">
 	<div class="container">
 		<div class="row">
+			<?php 
+
+$result = mysqli_query($myconnection, "SELECT * FROM demo_table_one WHERE id = 1");
+if($result){
+	echo "one data comes from database";
+}
+while($result_data = mysqli_fetch_object($result)):
+			?>
 
 			<table class="table table-bordered">
 				<tr>
-					<td>first name</td>
-					<td>middle name</td>
-					<td>last name</td>
-				</tr>
-				<tr>
-					<td>email</td>
-					<td>date of birth</td>
-					<td>gender</td>
-				</tr>
-				<tr>
-					<td colspan="3">address</td>
+					<td><?php echo $result_data->f_name ?></td>
+					<td><?php echo $result_data->md_name ?></td>
+					<td><?php echo $result_data->l_name ?></td>
 					
 				</tr>
 				<tr>
-					<td>occupation</td>
-					<td>phone</td>
-					<td>fax</td>
+					<td><?php echo $result_data->email ?></td>
+					<td><?php echo $result_data->dob ?></td>
+					<td><?php echo $result_data->gender ?></td>
+					
 				</tr>
 				<tr>
-					<td>zip/postal code</td>
-					<td>district</td>
-					<td>country</td>
+					<td colspan="3"><?php echo $result_data->address ?></td>
+					
 				</tr>
+				<tr>
+					<td><?php echo $result_data->occupation ?></td>
+					<td><?php echo $result_data->phone ?></td>
+					<td><?php echo $result_data->fax ?></td>
+					
+				</tr>
+				<tr>
+					<td><?php echo $result_data->district ?></td>
+					<td><?php echo $result_data->post_code ?></td>
+					<td><?php echo $result_data->country ?></td>
+					
+				</tr>
+				
 			</table>
-
+<?php endwhile ?>
 		</div>
 		<!-- end of the /.row -->
 	</div>
