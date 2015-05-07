@@ -1,0 +1,96 @@
+/* CSS Document by bdjobs*/
+
+.toplinks{
+	font-family:verdana;
+	font-size:12px;
+	color:#FFFFFF;
+	font-weight:bold;
+	text-decoration:none;
+}
+.toplinks:hover{
+	color:#F4DCCB;
+}
+.text
+{
+font-family:verdana;
+font-size:11px;
+text-align:justify;
+}
+.text2
+{
+font-family:verdana;
+font-size:11px;
+}
+.bottomlink
+{
+font-family:verdana;
+font-size:10px;
+color:#000000;
+text-decoration:none;
+}
+.tabletitle{
+	font-family:verdana;
+	font-size:12px;
+	color:#FFFFFF;
+	font-weight:bold;
+	text-decoration:none;
+}
+.tableheader{
+	font-size: 14px;
+	font-weight: bold;
+	color: #F47820;
+	font-family:verdana;
+}
+.textbox{
+	border:1px solid #F47820;
+	background-color:#FED9BE;
+}
+
+.button{
+	border-top:1px solid #f9b17e;
+	border-left:1px solid #f9b17e;
+	border-right:1px solid #66320d;
+	border-bottom:1px solid #66320d;
+	
+	background-color:#F47820;
+	height:22px;
+	font-family:verdana;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.button2
+{
+	border-top:1px solid #f9b17e;
+	border-left:1px solid #f9b17e;
+	border-right:1px solid #66320d;
+	border-bottom:1px solid #66320d;
+	
+	background-color:#F4A556;
+	height:22px;
+	font-family:verdana;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:11px;
+}
+.smlllink
+{
+	font-family:arial;
+	font-size:10px;
+	color:#144ceb;
+	text-decoration:none;
+}
+.detailink
+{
+	font-family:arial;
+	font-size:11px;
+	color:#144ceb;
+	text-decoration:none;
+}
+.jobtable{
+	background-color:#f5cbae;
+	border-bottom:1px solid #ECEDEE;
+	padding-left:5px;
+}
+.copyright{ font-family:verdana;
+color:#808080;
+font-size:10px;

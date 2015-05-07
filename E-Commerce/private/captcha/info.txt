@@ -1,0 +1,1 @@
+The existence of this folder is required, because it will be used to store the generated captcha images.
